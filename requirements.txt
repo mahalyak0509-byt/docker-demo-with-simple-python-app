@@ -1,3 +1,4 @@
-Flask==0.10.1
-gunicorn==19.6.0
-futures==3.0.5
+Flask==2.3.3          # Latest stable Flask 2.x compatible with Python 3.11
+gunicorn==20.1.0      # Latest stable Gunicorn
+Jinja2<3.1            # Ensures Flask import works
+Werkzeug>=2.3.0       # Required by latest Flask
